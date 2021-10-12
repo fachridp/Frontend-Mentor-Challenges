@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAA,IAAI,CAAC;EACV,KAAK,EAAE,IAAI;CAaZ;;AAdD,AAGE,OAHK,AAAA,IAAI,CAGT,eAAe,CAAC;EACd,KAAK,EAAE,IAAI;CASZ;;AAbH,AAMI,OANG,AAAA,IAAI,CAGT,eAAe,CAGb,IAAI,CAAC;EACH,KAAK,EAAE,IAAI;CAKZ;;AAZL,AASM,OATC,AAAA,IAAI,CAGT,eAAe,CAGb,IAAI,CAGF,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "topSection.scss"
+    ],
+    "names": [],
+    "file": "topSection.css"
+}

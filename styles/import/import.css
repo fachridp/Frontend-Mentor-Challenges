@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --PageBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+  --ButtonProceedHover: hsl(245, 91%, 66%);
+  --ButtonCancelHover: hsl(228, 5%, 19%);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--PageBlue);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+
+.bg-img {
+  width: 100vw;
+  height: 20vh;
+  background: url("../../images/pattern-background-mobile.svg") no-repeat center/cover;
+}
+
+main {
+  width: 90vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+section.top {
+  width: 100%;
+}
+
+section.top .container-card {
+  width: 100%;
+}
+
+section.top .container-card .top {
+  width: 100%;
+}
+
+section.top .container-card .top img {
+  width: 100%;
+}
+
+section.middle {
+  margin: 1rem 0 0 0;
+}
+
+section.middle article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.middle article .title h1 {
+  font-size: 1.3em;
+}
+
+section.middle article .description {
+  margin: 1rem 0 0 0;
+  line-height: 1.5rem;
+  padding: 0 1.2rem;
+}
+
+section.middle article .description p {
+  font-size: 0.9em;
+  color: var(--DesaturatedBlue);
+}
+
+section.middle article .annual-plan {
+  width: 90%;
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.middle article .annual-plan .container {
+  width: 100%;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: var(--VeryPaleBlue);
+  border-radius: 0.5rem;
+}
+
+section.middle article .annual-plan .container .left {
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.middle article .annual-plan .container .left .year {
+  margin: 0 0 0 1rem;
+  line-height: 1.4rem;
+}
+
+section.middle article .annual-plan .container .left .year h5 {
+  font-size: 0.9em;
+  font-weight: 900;
+  text-align: left;
+}
+
+section.middle article .annual-plan .container .left .year p {
+  font-size: 0.9em;
+  color: var(--DesaturatedBlue);
+  text-align: left;
+}
+
+section.middle article .annual-plan .container .right {
+  margin: 0 0 0 1rem;
+  padding: 0 0.8rem 0 0;
+}
+
+section.middle article .annual-plan .container .right a {
+  font-weight: 700;
+  color: var(--BrightBlue);
+  letter-spacing: 0.01rem;
+}
+
+section.middle article .annual-plan .container .right a:hover {
+  color: var(--ButtonProceedHover);
+  text-decoration: none;
+}
+
+section.middle article .annual-plan .btn {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+section.middle article .annual-plan .btn .btn-proceed {
+  margin: 0 0 1rem 0;
+}
+
+section.middle article .annual-plan .btn .btn-proceed button {
+  width: 100%;
+  padding: 1rem 0;
+  font-weight: 900;
+  color: #fff;
+  background-color: var(--BrightBlue);
+  border: none;
+  border-radius: 0.6rem;
+  letter-spacing: 0.01rem;
+  -webkit-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+section.middle article .annual-plan .btn .btn-proceed button:hover {
+  background-color: var(--ButtonProceedHover);
+}
+
+section.middle article .annual-plan .btn .btn-cancel button {
+  font-weight: 900;
+  color: var(--DesaturatedBlue);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+section.middle article .annual-plan .btn .btn-cancel button:hover {
+  color: var(--ButtonCancelHover);
+}
+
+@media only screen and (min-width: 310px) {
+  main section.middle article .annual-plan .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main section.middle article .annual-plan .container .left {
+    padding: 0 0 0 1rem;
+    margin: 0 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  main section.middle article .title h1 {
+    font-size: 1.4em;
+  }
+  main section.middle article .description {
+    padding: 0 3rem;
+  }
+  main section.middle article .annual-plan {
+    width: 85%;
+  }
+  main section.middle article .annual-plan .container .left .year {
+    margin: 0 0 0 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  main {
+    width: 80vw;
+  }
+  main section.middle article .title h1 {
+    font-size: 1.6em;
+  }
+  main section.middle article .description p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  main {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 60vw;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  main {
+    width: 55vw;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  main {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  main {
+    width: 45vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  main {
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  main {
+    width: 32vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bg-img {
+    height: 50vh;
+    background: url("../../images/pattern-background-desktop.svg") no-repeat center/cover;
+  }
+  main {
+    width: 30vw;
+  }
+}
+/*# sourceMappingURL=import.css.map */

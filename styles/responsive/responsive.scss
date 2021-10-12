@@ -1,0 +1,130 @@
+@media only screen and (min-width: 310px) {
+  main {
+    section.middle {
+      article {
+        .annual-plan {
+          .container {
+            flex-direction: row;
+
+            .left {
+              padding: 0 0 0 1rem;
+              margin: 0 0 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  main {
+    section.middle {
+      article {
+        .title {
+          h1 {
+            font-size: 1.4em;
+          }
+        }
+
+        .description {
+          padding: 0 3rem;
+        }
+
+        .annual-plan {
+          width: 85%;
+
+          .container {
+            .left {
+              .year {
+                margin: 0 0 0 1.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  main {
+    width: 80vw;
+
+    section.middle {
+      article {
+        .title {
+          h1 {
+            font-size: 1.6em;
+          }
+        }
+
+        .description {
+          p {
+            font-size: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  main {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 60vw;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  main {
+    width: 55vw;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  main {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  main {
+    width: 45vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  main {
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  main {
+    width: 32vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bg-img {
+    height: 50vh;
+    background: url("../../images/pattern-background-desktop.svg") no-repeat
+      center/cover;
+  }
+
+  main {
+    width: 30vw;
+  }
+}

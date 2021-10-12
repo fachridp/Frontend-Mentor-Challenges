@@ -1,0 +1,127 @@
+section.middle {
+  margin: 1rem 0 0 0;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      h1 {
+        font-size: 1.3em;
+      }
+    }
+
+    .description {
+      margin: 1rem 0 0 0;
+      line-height: 1.5rem;
+      padding: 0 1.2rem;
+
+      p {
+        font-size: 0.9em;
+        color: var(--DesaturatedBlue);
+      }
+    }
+
+    .annual-plan {
+      width: 90%;
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      .container {
+        width: 100%;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--VeryPaleBlue);
+        border-radius: 0.5rem;
+
+        .left {
+          margin: 0 0 1rem 0;
+          padding: 0 0 0 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .year {
+            margin: 0 0 0 1rem;
+            line-height: 1.4rem;
+
+            h5 {
+              font-size: 0.9em;
+              font-weight: 900;
+              text-align: left;
+            }
+
+            p {
+              font-size: 0.9em;
+              color: var(--DesaturatedBlue);
+              text-align: left;
+            }
+          }
+        }
+
+        .right {
+          margin: 0 0 0 1rem;
+          padding: 0 0.8rem 0 0;
+
+          a {
+            font-weight: 700;
+            color: var(--BrightBlue);
+            letter-spacing: 0.01rem;
+
+            &:hover {
+              color: var(--ButtonProceedHover);
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .btn {
+        margin: 1rem 0;
+        width: 100%;
+
+        .btn-proceed {
+          margin: 0 0 1rem 0;
+
+          button {
+            width: 100%;
+            padding: 1rem 0;
+            font-weight: 900;
+            color: #fff;
+            background-color: var(--BrightBlue);
+            border: none;
+            border-radius: 0.6rem;
+            letter-spacing: 0.01rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+
+            &:hover {
+              background-color: var(--ButtonProceedHover);
+            }
+          }
+        }
+
+        .btn-cancel {
+          button {
+            font-weight: 900;
+            color: var(--DesaturatedBlue);
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+              color: var(--ButtonCancelHover);
+            }
+          }
+        }
+      }
+    }
+  }
+}
